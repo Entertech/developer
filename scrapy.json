@@ -1,0 +1,22 @@
+{
+    "index_name": "Flowtime",
+    "sitemap_urls": [
+      "https://docs.myflowtime.cn/sitemap.xml"
+    ],
+    "stop_urls": [],
+    "selectors": {
+      "lvl0": {
+        "selector": "//*[@class='navbar__title'][1]/text()",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5, article td:first-child",
+      "lvl6": "article h6",
+      "text": "article p, article li, article td:last-child"
+    }
+  }

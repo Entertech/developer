@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: flowtime
+  name: ft-docs
+  labels:
+    app: ft-docs
+    service: ft-docs
+spec:
+  ports:
+  - port: 4000
+    name: http
+  selector:
+    app: ft-docs
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: flowtime
+  name: ft-docs
+  labels:
+    app: ft-docs
+spec:
+  selector:
+    matchLabels:
+      app: ft-docs
+  template:
+    metadata:
+      labels:
+        app: ft-docs
+    spec:
+      imagePullSecrets:
+      - name: registry
+      containers:
+      - name: ft-docs
+        image: registry.cn-shanghai.aliyuncs.com/heartflow/ft-docs:1.0.0
+        imagePullPolicy: Always
+        volumeMounts:
+        - name: tz-config
+          mountPath: /etc/localtime
+          readOnly: true
+        ports:
+        - containerPort: 4000
+          name: http
+          protocol: HTTP
+        resources:
+          requests:
+            memory: 300Mi
+            cpu: 100m
+          limits:
+            memory: 350Mi
+            cpu: 700m
+      volumes:
+      - name: tz-config
+        hostPath:
+          path: /etc/localtime

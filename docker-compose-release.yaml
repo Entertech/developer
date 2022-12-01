@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  ft-docs:
+    image: registry.cn-shanghai.aliyuncs.com/heartflow/ft-docs:1.0.0
+    build:
+      context: .

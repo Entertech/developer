@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  namespace: flowtime
+  name: ft-docs-ingress
+spec:
+  rules:
+  - host: docs.myflowtime.cn
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: ft-docs
+          servicePort: 4000
