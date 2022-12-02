@@ -1,5 +1,5 @@
 ---
-slug: /guides/hr-research-demo
+slug: /guides/raw-signals-research/hr-research-demo
 sidebar_label: 心率原始信号研究示例
 sidebar_position: 1
 description: 利用心率原始信号的变化趋势观察状态变化

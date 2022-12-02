@@ -1,5 +1,5 @@
 ---
-slug: /guides/pepr-research-demo
+slug: /guides/raw-signals-research/pepr-research-demo
 sidebar_label: 压电压阻原始信号研究示例
 sidebar_position: 1
 description: 从压电原始信号中获取特征来计算心率和呼吸率

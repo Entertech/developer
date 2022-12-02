@@ -1,5 +1,5 @@
 ---
-slug: /guides/flowtime-headband
+slug: /guides/raw-signals-research/flowtime-headband
 sidebar_label: Flowtime 头环
 sidebar_position: 1
 description: 使用 Flowtime 头环获取脑电波和心率原始信号
@@ -149,7 +149,7 @@ hr_data = raw_data  # raw_data 为十进制无符号 int 型原始数据
 
 使用结束后，长按设备按键直至灯完全熄灭即可关机。
 
-## 其他信息
+## 参考内容
 
 - 关于 Flowtime 头环的详细说明请参考 [Flowtime 头环说明](./链接到设备-Flowtime头环)。
 - 关于获取原始信号的详细说明请参考[获取原始信号](./链接到数据-获取原始信号)。
