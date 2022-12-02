@@ -1,0 +1,9 @@
+{
+  "label": "开发指南",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "根据开发类型选择相应的开发指南，开发指南将引导你学习如何使用设备，并利用我们提供的资源快速实现开发需求。",
+    "slug": "/guides"
+  }
+}
