@@ -75,17 +75,17 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'My Site',
+                title: 'Developer',
                 logo: {
                     alt: 'My Site Logo',
-                    src: 'img/logo.svg',
+                    src: 'img/logo.png',
                 },
                 items: [
                     {
                         type: 'doc',
-                        docId: 'intro',
+                        docId: 'start',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: '文档',
                     },
                     { to: '/blog', label: 'Blog', position: 'left' },
                     {
@@ -106,8 +106,8 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: '文档',
+                                to: '/docs/开始',
                             },
                         ],
                     },
