@@ -1,0 +1,9 @@
+{
+  "label": "获取数据",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "不同类别数据的获取方式如下。",
+    "slug": "/data/get-data"
+  }
+}
