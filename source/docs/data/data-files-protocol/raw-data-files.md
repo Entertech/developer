@@ -37,7 +37,7 @@ description: 原始数据文件的详细格式
 |  | close_time | str<br/>'YYYY-MM-DD-hh-mm-ss' | 结束时间 年-月-日-时-分-秒 |
 |  | source | int | 数据来源，即 App ID，用于区分不同应用 |
 | label | case | str | 标签情景，对应不同的实验名称 |
-|  | rec | list[dict] | 标签记录，分段记录具体的标签信息<br/>rec 的具体格式见[标签记录格式](./) |
+|  | rec | list[dict] | 标签记录，分段记录具体的标签信息<br/>rec 的具体格式见[标签记录格式](./label-rec-format) |
 
 <details>
 <summary>原始数据文件格式示例</summary>
@@ -75,6 +75,7 @@ description: 原始数据文件的详细格式
                 },
                 ...
         ]
+    }
 }
 ```
 

@@ -11,10 +11,10 @@ description: 生物数据与生理状态指标的获取方法
 
 ### 报表文件下载
 
-- 登录[情感云管理后台](./)。
+- 登录[情感云管理后台](http://admin.affectivecloud.cn)。
 - 在**使用记录**中选择**生物数据分析服务**或**生理状态分析服务**，找到目标记录。
 - 点击**操作**一列中的**下载报表文件**，可以得到压缩的报表文件，后缀名对应不同的生物数据分析或生理状态分析服务类型，如 .eeg.report 为双通道脑电波，.attention.report 为注意力。
-- 更多情感云管理后台相关使用说明请参考[情感云管理后台使用说明](./)。
+- 更多情感云管理后台相关使用说明请参考[情感云管理后台使用说明](https://entertech.feishu.cn/docx/IJaYdP3JvoyWMLxhtzlcfN7rnwd)。
 
 ### 报表文件解压
 
@@ -40,7 +40,7 @@ with open(path + '_unz', 'w') as f:  # path+'_unz'为解压缩后的文件保存
 ### 报表文件读取
 
 - 解压缩后的文件可直接读取为 json，读取`data`字段中`report`字段保存的内容，即为十进制无符号 int 型原始数据。例如：`[0,0,119,7,236,...,136,214,58]`。
-- 具体的原始数据文件格式可参考[数据文件格式](./)。
+- 具体的报表文件格式可参考[报表文件](../data-files-protocol/report-files)。
 - 生物数据报表文件内容说明请参考[生物数据报表分析返回值](../data-format/biological-data#biological-data-report-analysis-returns)。
 - 生理状态报表文件内容说明请参考[生理状态报表分析返回值](../data-format/physiological-state-metrics#physiological-state-report-analysis-returns)。
 - 如果你正在使用 Python，你也可以直接利用下面的代码从解压后的文件中读取报表分析结果。

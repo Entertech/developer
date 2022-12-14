@@ -129,15 +129,15 @@ Flowtime 头环轻巧便携，佩戴简单，可用于在多种场景下采集�
 
 Flowtime 头环包含双通道脑电（EEG）采集和 PPG 心率监测。如果希望获取设备采集到的原始信号，需要了解原始数据格式和解析方法，详情请参考：
 
-- [双通道脑电波数据协议](./)
-- [心率数据协议](./)
+- [双通道脑电波数据协议](../data/raw-data-protocol/eeg-data-protocol)
+- [心率数据协议](../data/raw-data-protocol/hr-data-protocol)
 
 ## 数据分析服务 {#data-analysis-service}
 
 如果你需要使用 Flowtime 头环连接情感云或使用本地化数据分析 SDK 来获得相关数据分析服务，请参考下面列举的 Flowtime 头环所支持的数据分析服务。
 
-- 情感云数据分析服务详情请参考[情感云数据分析服务总览](./链接到情感云-情感云数据分析服务总览)
-- 使用本地化数据分析服务请参考[本地化数据分析 SDK](./链接到情感云-本地化数据分析SDK)
+- 情感云数据分析服务详情请参考[情感云数据分析服务总览](../affective-cloud/data-analysis-service#data-analysis-service-overview)。
+- 使用本地化数据分析服务请参考[本地化数据分析](../affective-cloud/develop-resources#local-data-analysis)。
 
 | 服务类型 | 支持的数据分析服务 |
 | ---- | ---- |

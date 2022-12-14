@@ -31,9 +31,9 @@ sidebar_position: 5
 我们开放相关的数据获取方法，便于你进行自主开发和研究。
 
 - 如果你需要实时获取设备采集到的原始信号，我们提供了相关的开发资源供你连接设备并实时获取数据。
-  - [使用设备管理 SDK 获取原始信号](./)
+  - [使用设备管理 SDK 获取原始信号](./data/get-data/get-raw-signals#from-device-manager-sdk)
 - 如果你正在使用情感云数据分析服务，我们会在情感云管理后台保存每一次会话的原始数据文件以及生物数据、生理状态的报表文件，便于你进行离线分析。
-  - [使用情感云管理后台下载原始信号](./)
-  - [使用情感云管理后台下载报表文件](./)
+  - [使用情感云管理后台下载原始信号](./data/get-data/get-raw-signals#from-affective-cloud-manager-backstage)
+  - [使用情感云管理后台下载报表文件](./data/get-data/get-biological-data-and-physiological-state-metrics#from-affective-cloud-manager-backstage)
 - 如果你正在使用本地化数据分析 SDK，你可以直接通过 SDK 实时输出生物数据和生理状态指标，并自行保存。
-  - [本地化数据分析 SDK](./)
+  - [使用本地化数据分析 SDK 获取生物数据和生理状态指标](./data/get-data/get-biological-data-and-physiological-state-metrics#from-local-data-analysis-sdk)

@@ -23,7 +23,7 @@ description: 情感云开发接口协议基本结构
 ## Response 结构体
 
 - code【必填】
-  - 0 请求成功 其它见 [ErrCode](./)
+  - 0 请求成功 其它见 [错误代码](./error-code)
 - request【必填】
   - services【必填】
   - op【必填】

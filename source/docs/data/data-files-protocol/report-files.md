@@ -48,7 +48,7 @@ description: 报表文件的详细格式
 |  | **upload_cycle** | int<br/>[0, 100] | 上传周期倍数，报表分析中各项全程记录数据的间隔时间为 upload_cycle$\times$0.6<br/>例如上传周期倍数为 3，则全程记录数组中每个数据点间隔为 1.8 秒 |
 |  | algorithm_params | dict | 算法配置参数（内部使用，无需关注） |
 | label | case | str | 标签情景，对应不同的实验名称 |
-|  | rec | list[dict] | 标签记录，分段记录具体的标签信息<br/>rec 的具体格式见[标签记录格式](./) |
+|  | rec | list[dict] | 标签记录，分段记录具体的标签信息<br/>rec 的具体格式见[标签记录格式](./label-rec-format) |
 
 <details>
 <summary>报表文件格式示例</summary>
@@ -101,6 +101,7 @@ description: 报表文件的详细格式
                 },
                 ...
         ]
+    }
 }
 ```
 
