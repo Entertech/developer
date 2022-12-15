@@ -1,0 +1,9 @@
+{
+  "label": "接入设备管理 SDK",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "请根据你的设备选择相应的说明，接入设备管理 SDK，完成设备与应用之间连接、数据采集等功能的开发。",
+    "slug": "/guides/product-development/integrate-device-manager-sdk"
+  }
+}

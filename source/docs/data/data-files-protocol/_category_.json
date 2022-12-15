@@ -1,0 +1,9 @@
+{
+  "label": "数据文件协议",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "本协议介绍了情感云保存的数据文件格式。通过本协议，你可以了解从情感云管理后台下载到的原始数据文件和报表文件的格式，并从中解析得到所需数据。",
+    "slug": "/data/data-files-protocol"
+  }
+}

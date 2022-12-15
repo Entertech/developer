@@ -1,0 +1,9 @@
+{
+  "label": "获取原始信号",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "请根据你的设备选择相应的教程。",
+    "slug": "/guides/raw-signals-research/get-raw-signals"
+  }
+}

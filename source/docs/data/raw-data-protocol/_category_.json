@@ -1,0 +1,9 @@
+{
+  "label": "原始数据协议",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "本协议介绍了回车生物信号采集设备的原始数据格式和解析方法。根据本协议，你可以从设备传输的硬件原始数据或情感云管理后台下载到的原始数据文件中解析得到原始信号。",
+    "slug": "/data/raw-data-protocol"
+  }
+}

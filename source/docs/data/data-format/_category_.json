@@ -1,0 +1,9 @@
+{
+  "label": "数据格式",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "不同类别数据的详细格式如下。",
+    "slug": "/data/data-format"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "数据说明",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "关于生物数据与生理状态指标的详细解释。",
+    "slug": "/affective-cloud/data-interpretation"
+  }
+}
