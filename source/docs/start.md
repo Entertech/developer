@@ -23,7 +23,14 @@ sidebar_position: 1
 | [Flowtime 头环](/链接到设备-Flowtime头环) |  双通道 EEG 采集<br/>PPG 心率监测 | 脑电波、脑电波节律能量<br/>心率、HRV | 注意力、放松度、压力水平、和谐度、睡眠、愉悦度、激活度等 |
 | [Flowtime 坐垫](/链接到设备-Flowtime坐垫) |  压电心率监测<br/>压电呼吸监测 | 心率、脉搏波、HRV<br/>呼吸率、呼吸波 | 压力水平、和谐度 |
 
-## 开发资源
+## 开发资源 {#develop-resources}
+
+| 开发资源 | 简介 |
+| --- | --- |
+| [设备管理 SDK](./devices#develop-resources) | 主机连接设备并控制其采集原始信号 |
+| [情感云 SDK](./affective-cloud/develop-resources#affective-cloud-sdk) | 连接情感云并获取情感云数据分析服务 |
+| [本地化数据分析 SDK](./affective-cloud/develop-resources#local-data-analysis) | 在本地使用数据分析服务，适用于非联网的场景 |
+| [数据可视化 SDK](./affective-cloud/develop-resources#data-visualization-sdk) | 实时数据可视化与报表数据可视化 |
 
 ## 工具
 
