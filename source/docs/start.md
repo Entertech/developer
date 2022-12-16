@@ -20,8 +20,8 @@ sidebar_position: 1
 
 | 设备 | 原始信号采集 | 生物数据分析服务 | 生理状态分析服务 |
 | ---- | ------- | ------- | ------- |
-| [Flowtime 头环](/链接到设备-Flowtime头环) |  双通道 EEG 采集<br/>PPG 心率监测 | 脑电波、脑电波节律能量<br/>心率、HRV | 注意力、放松度、压力水平、和谐度、睡眠、愉悦度、激活度等 |
-| [Flowtime 坐垫](/链接到设备-Flowtime坐垫) |  压电心率监测<br/>压电呼吸监测 | 心率、脉搏波、HRV<br/>呼吸率、呼吸波 | 压力水平、和谐度 |
+| [Flowtime 头环](./devices/flowtime-headband) |  双通道 EEG 采集<br/>PPG 心率监测 | 脑电波、脑电波节律能量<br/>心率、HRV | 注意力、放松度、压力水平、和谐度、睡眠、愉悦度、激活度等 |
+| [Flowtime 坐垫](./devices/flowtime-cushion) |  压电心率监测<br/>压电呼吸监测 | 心率、脉搏波、HRV<br/>呼吸率、呼吸波 | 压力水平、和谐度 |
 
 ## 开发资源 {#develop-resources}
 

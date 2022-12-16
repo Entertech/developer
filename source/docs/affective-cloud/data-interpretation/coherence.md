@@ -31,11 +31,13 @@ description: 关于和谐度的详细解释与应用示例
 #### 普通状态下的和谐度变化
 
 普通状态下的和谐度整体处于较低水平。
+
 ![普通状态下的和谐度变化](./image/coherence-curve-in-normal-state.png)
 
 #### 冥想中呼吸练习前后的和谐度变化
 
 后半段进入呼吸练习，和谐度升高并维持较高水平。
+
 ![冥想中呼吸练习前后的和谐度变化](./image/coherence-curve-in-breath-exercise.png)
 
 ### 心率与和谐（HR & Coherence）

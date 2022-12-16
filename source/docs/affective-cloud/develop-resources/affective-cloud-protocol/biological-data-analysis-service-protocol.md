@@ -99,7 +99,7 @@ biodata init 的 Response 结构体如下：
 
 ## 订阅生物数据实时分析（biodata subscribe）
 
-订阅生物数据分析服务的实时分析数据。分析返回值为可选服务，如果你需要实时接收情感云分析的返回值，则开启此订阅。实时分析返回值请参考[生物数据实时分析返回值](./)。
+订阅生物数据分析服务的实时分析数据。分析返回值为可选服务，如果你需要实时接收情感云分析的返回值，则开启此订阅。实时分析返回值请参考[生物数据实时分析返回值](../../data/data-format/biological-data#biological-data-realtime-analysis-returns)。
 
 一些返回值依赖于初始化配置，初始化配置详情请参考[启动并初始化生物数据分析服务](#biodata-init)。
 
@@ -316,7 +316,7 @@ biodata unsubscribe 的 Response 结构体如下：
 
 ## 获取生物数据报表分析（biodata report）
 
-获取生物数据分析统计报表。可以获得从会话开始到当前时刻的这段时间内的报表分析。报表分析返回值请参考[生物数据报表分析返回值](./链接到数据-数据分析结果)。
+获取生物数据分析统计报表。可以获得从会话开始到当前时刻的这段时间内的报表分析。报表分析返回值请参考[生物数据报表分析返回值](../../data/data-format/biological-data#biological-data-report-analysis-returns)。
 
 ![数据分析方式](./image/data-analysis-mode.png)
 
