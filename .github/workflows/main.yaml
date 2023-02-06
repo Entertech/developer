@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: wearerequired/git-mirror-action@master
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_ACTION_PRV }}
+          SSH_PRIVATE_KEY: ${{ secrets.SYNC_GITEE }}
         with:
           source-repo: "git@github.com:Entertech/developer.git"
           destination-repo: "git@gitee.com:Lockeysama/developer.git"
