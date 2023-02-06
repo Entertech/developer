@@ -2,7 +2,7 @@
 
 export VERSION = 0.1.0
 
-export REGISTRY = registry.cn-shanghai.aliyuncs.com/heartflow
+export REGISTRY = registry.cn-shanghai.aliyuncs.com/entertech
 export REPO = https://gitee.com/lockeysama/developer.git
 export BRANCH = main
 
