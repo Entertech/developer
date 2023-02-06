@@ -4,7 +4,7 @@ export VERSION = 0.1.0
 
 export REGISTRY = registry.cn-shanghai.aliyuncs.com/heartflow
 export REPO = https://gitee.com/lockeysama/developer.git
-export BRANCH = master
+export BRANCH = main
 
 _echo:
 	@echo "Version: " ${VERSION}
