@@ -17,4 +17,4 @@ update: build
 	docker push ${REGISTRY}/developer:${VERSION}
 
 updatex: _echo
-	docker buildx build --platform linux/amd64 --push -t ${REGISTRY}/developer:${VERSION} .
+	docker buildx build --build-arg REPO=${REPO} --build-arg BRANCH=${BRANCH} --platform linux/amd64 --push -t ${REGISTRY}/developer:${VERSION} .
