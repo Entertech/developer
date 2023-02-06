@@ -1,0 +1,30 @@
+name: Sync To Gitee
+on:
+  push:
+    branches: [ main ]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_ACTION_PRV }}
+        with:
+          source-repo: "git@github.com:Entertech/developer.git"
+          destination-repo: "git@gitee.com:Lockeysama/developer.git"
+  # check:
+  #   runs-on: ubuntu-latest
+  #   needs: sync
+  #   steps:
+  #     - uses: actions/checkout@v1
+  #     - name: Sitemap Check
+  #       run: |
+  #         sleep 120; while true; do STATUS=$(curl -s --head -w %{http_code} https://help.myflowtime.com/sitemap.xml -o /dev/null); if [ $STATUS = 200 ]; then echo 'exit...'; break; else echo $STATUS 'wating'; sleep 3; fi; done
+  # ds-update:
+  #   runs-on: ubuntu-latest
+  #   needs: check
+  #   steps:
+  #     - uses: actions/checkout@v1
+  #     - name: Doc Search Update
+  #       run: |
+  #         docker run -i -e "API_KEY=${{ secrets.ALGOLIA_API_KEY }}" -e "APPLICATION_ID=${{ secrets.ALGOLIA_APPLICATION_ID }}" -e "CONFIG=$(cat ./scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0

@@ -1,9 +1,10 @@
 FROM node:16-slim
 
-RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
-&& sed -i s@/security.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
-&& apt update \
-&& apt install git -y \
+RUN sed -i s@/deb.debian.org/@/mirrors.ustc.edu.cn/@g /etc/apt/sources.list \
+&& sed -i s@/security.debian.org/@/mirrors.ustc.edu.cn/@g /etc/apt/sources.list
+
+RUN apt update \
+&& apt-get install git -y \
 && apt clean \
 && yarn config set registry https://registry.npmmirror.com --global
 
