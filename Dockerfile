@@ -12,7 +12,7 @@ WORKDIR /docs
 ARG REPO
 ARG BRANCH
 
-RUN echo "2022-09-06 17:50:00" \
+RUN echo "2023-02-06 14:00:00" \
 && git clone $REPO Documents \
 && cd Documents \
 && git checkout $BRANCH
