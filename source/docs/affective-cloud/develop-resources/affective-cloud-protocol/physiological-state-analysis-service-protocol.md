@@ -56,7 +56,10 @@ affective start 的 Request 结构体如下：
 
 | 参数 | 服务名称 | 配置项 | 配置内容 | 说明 |
 | --- | --- | --- | --- | --- |
+| algorithm_params | sleep | eeg_power_output | True/False<br/>默认值：False | 脑波能量输出：是否输出各脑波能量。可选择输出全程各脑波能量变化曲线，该曲线与睡眠曲线长度一致，便于绘图处理<br/>False：报表返回的结果中不包含各脑波能量变化曲线	<br/>True：报表返回的结果中包含各脑波能量变化曲线	 |
 | algorithm_params | sleep | sleep_stage_output | True/False<br/>默认值：False | 睡眠分期输出：是否计算睡眠分期（快速眼动期时长计算依赖于睡眠分期计算）<br/>False：实时分析和报表分析的返回结果中不包括睡眠分期和快速眼动期时长<br/>True：实时分析和报表分析的返回结果中包括睡眠分期和快速眼动期时长 |
+| algorithm_params | sleep | advanced_analysis | True/False<br/>默认值：False | 进阶分析输出：是否进行进阶分析。进阶分析包括睡眠过程中的体动、觉醒输出以及睡眠抗干扰能力等指标<br/>False：报表返回的结果中不包含进阶分析指标	<br/>True：报表返回的结果中包含进阶分析指标 |
+
 
 <details>
 <summary>示例</summary>
