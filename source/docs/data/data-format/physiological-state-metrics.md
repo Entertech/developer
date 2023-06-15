@@ -19,7 +19,7 @@ description: 情感云和本地化数据分析 SDK 的各项生理状态指标�
 | coherence | coherence | float | [0, 100] | 和谐度值，数值越高代表越和谐 |
 | sleep | sleep_degree | float | [0, 100] | 睡眠程度，数值越小代表睡得越深 |
 |  | sleep_state | int | {0, 1} | 睡眠状态，0 表示未入睡，1 表示已入睡 |
-|  | eeg_alpha_power</br>eeg_beta_power</br>eeg_theta_power</br>eeg_delta_power</br>eeg_gamma_power | float | {0, 1} | 脑电α/β/θ/δ/γ频段能量占比</br>初始阶段与信号质量不佳时返回为0，其余情况返回能量占比/分贝值</br>eeg_power_output=True时输出 |
+|  | eeg_alpha_power<br>eeg_beta_power<br>eeg_theta_power<br>eeg_delta_power<br>eeg_gamma_power | float | {0, 1} | 脑电α/β/θ/δ/γ频段能量占比<br>初始阶段与信号质量不佳时返回为0，其余情况返回能量占比/分贝值<br>eeg_power_output=True时输出 |
 |  | eeg_quality | int | {0, 1, 2, 3, 4} | 脑电信号质量等级<br>0表示未检测到佩戴，电极与皮肤接触不良<br>1表示检测到数据但没有有效脑电信号<br>2表示检测到脑电信号但信噪比较低，只显示波形而不进行计算<br>3表示检测到脑电信号质量正常，可进行正常计算<br>4表示检测到脑电信号质量很好，信噪比较高，计算结果更准确<br>eeg_quality_output=True时输出 |
 |  | sleep_stage | int | {0, 1, 2, 3, 4} | 实时睡眠分期<br>0：清醒期<br>1：N1期<br>2：N2期<br>3：N3期<br>4：REM期<br>sleep_stage_output=True时输出 |
 | attention_chd | attention_chd | float | [0, 100] | 儿童注意力值，数值越高代表注意力越高 |
