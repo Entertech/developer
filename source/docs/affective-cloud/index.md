@@ -1,6 +1,6 @@
 ---
 slug: /affective-cloud
-sidebar_label: 情感云
+sidebar_label: 情感云计算
 sidebar_position: 4
 ---
 

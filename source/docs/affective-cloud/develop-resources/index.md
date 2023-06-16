@@ -36,8 +36,12 @@ sidebar_position: 4
 
 - [情感云开发接口协议](./affective-cloud-protocol)
 
-### 本地化数据分析 {#local-data-analysis}
+### 本地数据分析 {#local-data-analysis}
 
 如果你希望获得与情感云类似的数据分析服务，但由于使用场景不适合联网，我们还提供了本地数据分析 SDK，你可以使用它开发无需联网使用的本地应用。
 
-- [本地化数据分析 SDK](./)
+- 本地数据分析 SDK
+
+:::info
+本地数据分析 SDK 不对外公开，签订合同之后开放，具体可咨询商务。[business@entertech.cn](mailto:business@entertech.cn)
+:::

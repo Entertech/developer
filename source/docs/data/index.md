@@ -1,6 +1,6 @@
 ---
 slug: /data
-sidebar_label: 数据
+sidebar_label: 信号、数据和指标
 sidebar_position: 5
 ---
 
@@ -13,10 +13,33 @@ sidebar_position: 5
 我们约定了不同数据类别的命名规范，你可以通过下表了解不同类别的数据所代表的含义，方便你理解其他内容。
 
 | 数据类别 | 说明 |
-| --- | --- |
+|----------|----|
 | 原始信号 | 使用设备采集到的原始信号。包括脑电波原始信号、心率数据、压电信号等。不同设备的传感器不同，可以获取的原始信号也不同，具体情况可参考[设备采集的原始信号](./data/data-format/raw-signals#raw-signals-of-devices)。 |
 | 生物数据 | 对原始信号进行信号处理和特征分析后得到的客观的生物数据。包括脑电波、脑电波节律能量、心率、HRV 等。 |
 | 生理状态指标 | 对生物数据进行算法分析得到的更直观的生理状态指标。例如通过分析脑电波特征可以得到注意力、放松度等。 |
+
+## 数据类别、开发状态和支持设备
+
+| 数据类型 | 数据  | 开发状态 | 支持设备 |
+|:----------:|----------|----------|----|
+| 原始信号 | 电波原始信号               | -        | Flowtime 头环 / 回车VR / 热敷助眠眼罩          |
+|          | 心率数据                   | -        | Flowtime 头环 / 回车VR / 热敷助眠眼罩          |
+|          | 压电信号                   | -        | Flowtime 坐垫                                  |
+| 生物数据 | 脑电波（EEG）                | Released | Flowtime 头环 / 回车VR / 热敷助眠眼罩  |
+|          | 心率（HR）                   | Released | Flowtime 头环 / 回车VR / Flowtime 坐垫 |
+|          | 脉搏波（BCG）                | Released | Flowtime 坐垫                                  |
+|          | 呼吸（Breath）               | Released | Flowtime 坐垫                                  |
+| 生理状态指标 | 注意力（Attention）          | Released | Flowtime 头环 / 回车VR                 |
+|          | 儿童专注力（Attention CHD）  | Beta     | Flowtime 头环 / 回车VR                 |
+|          | 放松度（Relaxation）         | Released | Flowtime 头环 / 回车VR / 热敷助眠眼罩  |
+|          | 儿童放松度（Relaxation CHD） | Beta     | Flowtime 头环 / 回车VR                 |
+|          | 压力水平（Pressure）         | Released | Flowtime 头环 / 回车VR / Flowtime 坐垫 |
+|          | 愉悦度（Pleasure）           | Beta     | Flowtime 头环 / 回车VR                 |
+|          | 激活度（Arousal）            | Beta     | Flowtime 头环 / 回车VR                 |
+|          | 和谐度（Coherence）          | Released | Flowtime 头环 / 回车VR                 |
+|          | 睡眠（Sleep）                | Released | Flowtime 头环 / 回车VR / 热敷助眠眼罩  |
+
+具体数据说明可以参考本章节的数据说明部分的介绍。
 
 ## 数据获取途径
 

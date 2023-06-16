@@ -1,15 +1,14 @@
 ---
 slug: /devices
-sidebar_label: 设备
+sidebar_label: 设备介绍和使用
 sidebar_position: 3
 ---
 
 # 设备
 
-我们为开发者提供了不同类型的设备，你可以根据需要购买相应的设备进行开发。
 
-![Flowtime 头环展示](./image/flowtime-headband-display.png) | ![Flowtime 坐垫展示](./image/flowtime-cushion-display.png)
----|---
+
+我们为开发者提供了不同类型的设备，你可以根据需要购买相应的设备进行开发。
 
 ## 设备概览 {#devices-overview}
 
@@ -19,13 +18,12 @@ sidebar_position: 3
 | ---- | ------- | ------- | ------- |
 | [Flowtime 头环](./devices/flowtime-headband) |  双通道 EEG 采集<br/>PPG 心率监测 | 脑电波、脑电波节律能量<br/>心率、HRV | 注意力、放松度、压力水平、和谐度、睡眠、愉悦度、激活度等 |
 | [Flowtime 坐垫](./devices/flowtime-cushion) |  压电心率监测<br/>压电呼吸监测 | 心率、脉搏波、HRV<br/>呼吸率、呼吸波 | 压力水平、和谐度 |
+| [回车 VR](./devices/entertech-vr-headset) |  双通道 EEG 采集<br/>PPG 心率监测 | 脑电波、脑电波节律能量<br/>心率、HRV | 注意力、放松度、压力水平、和谐度、睡眠、愉悦度、激活度等 |
+| [热敷助眠眼罩](./devices/entertech-mask) |  单通道 EEG 采集 | 脑电波、脑电波节律能量 | 注意力、放松度、睡眠 |
 
 ## 开发资源 {#develop-resources}
 
-我们为不同设备、不同平台的开发者提供了设备管理 SDK。你可以使用我们已经开发好的 SDK 快速接入，实现管理设备连接、数据采集等功能，并利用我们提供的 Demo 进行测试。
-
-- [Flowtime 头环设备管理 SDK](./devices/flowtime-headband#develop-resources)
-- [Flowtime 坐垫设备管理 SDK](./devices/flowtime-cushion#develop-resources)
+我们为不同设备、不同平台的开发者提供了设备管理 SDK。你可以使用我们已经开发好的 SDK 快速接入，实现管理设备连接、数据采集等功能，并利用我们提供的 Demo 进行测试。点击对应设备的介绍，查看相关开发资源。
 
 ## 设备可靠性
 

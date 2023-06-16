@@ -15,24 +15,26 @@ description: 脑电波、心率等原始信号的数据格式与解析方法
 | :---: | :---: | :---: | :---: | :---: |
 | Flowtime 头环 | √ |  | √ |  |
 | Flowtime 坐垫 |  |  |  | √ |
+| 回车 VR | √ |  | √ |  |
+| 热敷眼罩 |  | √ |  |  |
 
-### 双通道脑电波
+### 双通道脑电波 {#double-channel-eeg-raw-signal}
 
 ![双通道脑电波](./image/eeg-raw-signal-zoom.png)
 
-### 单通道脑电波
+### 单通道脑电波 {#single-channel-eeg-raw-signal}
 
 ![单通道脑电波](./image/sceeg-raw-signal-zoom.png)
 
-### 心率
+### 心率 {#heart-rate-raw-signal}
 
 ![心率](./image/hr-raw-signal.png)
 
-### 压电压阻
+### 压电压阻 {#pepr-raw-signal}
 
 ![压电压阻](./image/pepr-raw-signal-zoom.png)
 
-## 原始数据格式与解析
+## 原始数据格式与解析 {#raw-signals-protocol}
 
 原始数据是指设备蓝牙传输的硬件数据，你可以通过以下途径获取原始数据：
 
